@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red_200">#FFFF8A80</color>
+    <color name="red_500">#FFFF5252</color>
+    <color name="red_700">#FFD32F2F</color>
+    <color name="orange_200">#FFFFCC80</color>
+    <color name="orange_500">#FFFFAB40</color>
+    <color name="orange_700">#FFFF6D00</color>
+    <color name="yellow_200">#FFFFFF8D</color>
+    <color name="yellow_500">#FFFFFF00</color>
+    <color name="yellow_700">#FFFFD600</color>
+    <color name="green_200">#FFA5D6A7</color>
+    <color name="green_500">#FF4CAF50</color>
+    <color name="green_700">#FF388E3C</color>
+    <color name="blue_200">#FF82B1FF</color>
+    <color name="blue_500">#FF448AFF</color>
+    <color name="blue_700">#FF2979FF</color>
+    <color name="indigo_200">#FF9FA8DA</color>
+    <color name="indigo_500">#FF3F51B5</color>
+    <color name="indigo_700">#FF303F9F</color>
+    <color name="violet_200">#FFB39DDB</color>
+    <color name="violet_500">#FF9C27B0</color>
+    <color name="violet_700">#FF6A1B9A</color>
+
 </resources>
