@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.stevdzasan_navigationcomponent.R
+import com.example.stevdzasan_navigationcomponent.model.User
 
 
 class SplashFragment : Fragment() {
@@ -19,7 +20,13 @@ class SplashFragment : Fragment() {
     ): View? {
         Handler().postDelayed({
             if (onBoardingFinished()) {
-                findNavController().navigate(R.id.action_splashFragment_to_homeFragment)
+                val firstName = "RainBowT"
+                val lastName = "ㄚT"
+                val user = User(firstName, lastName)
+
+                val action = SplashFragmentDirections.actionSplashFragmentToHomeFragment(user)
+
+                findNavController().navigate(action)
             } else {
                 findNavController().navigate(R.id.action_splashFragment_to_viewPagerFragment)
             }
