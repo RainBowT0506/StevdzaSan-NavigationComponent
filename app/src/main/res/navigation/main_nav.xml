@@ -30,9 +30,30 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
-        <argument
-            android:name="number"
-            app:argType="integer"
-            android:defaultValue="2" />
     </fragment>
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.example.stevdzasan_navigationcomponent.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" />
+    <fragment
+        android:id="@+id/fourthFragment"
+        android:name="com.example.stevdzasan_navigationcomponent.FourthFragment"
+        android:label="fragment_fourth"
+        tools:layout="@layout/fragment_fourth" />
+    <fragment
+        android:id="@+id/fifthFragment"
+        android:name="com.example.stevdzasan_navigationcomponent.FifthFragment"
+        android:label="fragment_fifth"
+        tools:layout="@layout/fragment_fifth" />
+    <fragment
+        android:id="@+id/sixthFragment"
+        android:name="com.example.stevdzasan_navigationcomponent.SixthFragment"
+        android:label="fragment_sixth"
+        tools:layout="@layout/fragment_sixth" />
+    <fragment
+        android:id="@+id/seventhFragment"
+        android:name="com.example.stevdzasan_navigationcomponent.SeventhFragment"
+        android:label="fragment_seventh"
+        tools:layout="@layout/fragment_seventh" />
 </navigation>

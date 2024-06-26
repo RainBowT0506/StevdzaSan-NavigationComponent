@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/firstFragment"
+        android:icon="@drawable/ic_chakra01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="The Root Chakra" />
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/ic_chakra02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="The Sacral Chakra" />
+    <item
+        android:id="@+id/thirdFragment"
+        android:icon="@drawable/ic_chakra03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="The Solar Plexus Chakra" />
+    <item
+        android:id="@+id/fourthFragment"
+        android:icon="@drawable/ic_chakra04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="The Heart Chakra" />
+    <item
+        android:id="@+id/fifthFragment"
+        android:icon="@drawable/ic_chakra05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="The Throat Chakra" />
+<!--    <item-->
+<!--        android:id="@+id/sixthFragment"-->
+<!--        android:icon="@drawable/ic_chakra06"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:title="The Third Eye Chakra" />-->
+<!--    <item-->
+<!--        android:id="@+id/seventhFragment"-->
+<!--        android:icon="@drawable/ic_chakra07"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:title="The Crown Chakra" />-->
+</menu>

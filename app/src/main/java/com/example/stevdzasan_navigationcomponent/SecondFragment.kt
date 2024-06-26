@@ -17,8 +17,6 @@ private const val ARG_PARAM2 = "param2"
 
 class SecondFragment : Fragment() {
 
-    val args: SecondFragmentArgs by navArgs()
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -27,8 +25,6 @@ class SecondFragment : Fragment() {
 
         val textView2 = view.findViewById<TextView>(R.id.textView2)
 
-        val number = args.number
-        textView2.text = number.toString()
         textView2.setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.navToFirst)
         }
